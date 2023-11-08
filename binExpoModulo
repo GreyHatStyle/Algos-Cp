@@ -1,5 +1,5 @@
 const int M = 1e9 + 7;
-// a <= b <= 1e9
+
 int binModExp(int a, int b){
 	int ans = 1;
 	while(b){
@@ -9,4 +9,5 @@ int binModExp(int a, int b){
 		a = (a *1LL*a) % M;
 		b>>=1;
 	}
+	return ans;
 }
