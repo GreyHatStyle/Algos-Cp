@@ -55,4 +55,4 @@ int binModExp(int a, int b, int m){
 	}
 	return ans;
 }
-binModExp(a, binModExp(b,c,M),M);
+binModExp(a, binModExp(b,c,M-1),M);
