@@ -1,2 +1,4 @@
 # algos-cp
-Nothing just I am storing some algorithms for myself..
+It contains few useful algorithms that can be used during competitive coding.
+
+#### I will upgrade this file with time.
